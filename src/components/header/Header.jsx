@@ -114,6 +114,7 @@ const Header = () => {
                                 onChange={(e) => setQuery(e.target.value)}
                                 onKeyUp={searchQueryHandler}
                             />
+                            <HiOutlineSearch  />
                             <VscChromeClose
                                 onClick={() => setShowSearch(false)}
                             />
