@@ -51,6 +51,15 @@ const Header = () => {
         }
     };
 
+    const searchFast = ()=>{
+        if (query.length > 0) {
+            navigate(`/search/${query}`);
+            setTimeout(() => {
+                setShowSearch(false);
+            }, 1000);
+        }
+    }
+
     const openSearch = () => {
         setMobileMenu(false);
         setShowSearch(true);
@@ -114,7 +123,7 @@ const Header = () => {
                                 onChange={(e) => setQuery(e.target.value)}
                                 onKeyUp={searchQueryHandler}
                             />
-                            <HiOutlineSearch  />
+                            <HiOutlineSearch onClick={searchFast} />
                             <VscChromeClose
                                 onClick={() => setShowSearch(false)}
                             />
