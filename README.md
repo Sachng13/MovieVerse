@@ -2,7 +2,7 @@
 
 <h1>MovieVerse details </h1>
 
-<p>The MovieVerse website allows users to discover a vast collection of movies, including the latest releases. There are also detailed movie pages with information of plot, cast, crew, rating amd users can watch captivating trailers directly on the website.</p>
+<p>The MovieVerse website made with React. Allows users to discover a vast collection of movies, including the latest releases. There are also detailed movie pages with information of plot, cast, crew, rating and users can watch captivating trailers directly on the website.</p>
 
 <h2>Deployed On :-</h2>
 https://movie-verse-brown.vercel.app/
